@@ -21,7 +21,7 @@ class MyCMD(cmd.Cmd):
 
   def do_quit(self, arg):
     """Exits the CLI."""
-    print("Goodbye!!!!")
+    print("Goodbye you all!!!!")
     raise SystemExit
 
 if __name__ == '__main__':
